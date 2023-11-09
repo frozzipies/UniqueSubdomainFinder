@@ -14,4 +14,6 @@ Source : https://medium.com/@h4x0r_dz/the-right-way-to-get-unique-subdomains-on-
 ## Usage
 ```bash find.sh```
 
-![image](https://github.com/frozzipies/UniqueSubdomainFinder/assets/97401702/c4306514-83d5-4c82-9cde-5d3787352a3d)
+![image](https://github.com/frozzipies/UniqueSubdomainFinder/assets/97401702/8b554e6b-c5cc-4eb1-b1ad-929c26de7174)
+
+![image](https://github.com/frozzipies/UniqueSubdomainFinder/assets/97401702/3aa96617-5914-492a-bcdb-4aa7a543afa4)
