@@ -6,7 +6,6 @@ Source : https://medium.com/@h4x0r_dz/the-right-way-to-get-unique-subdomains-on-
 ## Requirements
 - Subfinder
 - Httpx-toolkit
-- Awk
 
 ## Installation
 ```git clone https://github.com/frozzipies/UniqueSubdomainFinder```
