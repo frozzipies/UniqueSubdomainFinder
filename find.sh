@@ -21,7 +21,8 @@ subfinder -d "$domain_to_check" -o subdomains.txt
 httpx -l subdomains.txt -sc -title -cl -wc -td | tee httpx.txt
 
 # Add a separation line
-echo "-----------------------"
+echo "---------------------------------------------------------------------------------"
+echo "Results :"
 
 # Use cat to read the httpx.txt file and awk to filter and remove duplicate lines
 cat httpx.txt | awk -F"[" '!seen[$2, $3, $4, $5]++'
