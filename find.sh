@@ -5,6 +5,12 @@ clear_terminal() {
   clear
 }
 
+# Welcome message
+echo "----------------------------------------"
+echo "      UniqueSubdomainFinder    "
+echo "      Created by frozzipies               "
+echo "----------------------------------------"
+
 # Prompt the user to enter a domain
 read -p "Enter the domain you want to check: " domain
 
