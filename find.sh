@@ -11,6 +11,9 @@ echo "      UniqueSubdomainFinder    "
 echo "      Created by frozzipies               "
 echo "----------------------------------------"
 
+# delete
+sudo rm httpx.txt subdomains.txt
+
 # Prompt the user to enter a domain
 read -p "Enter the domain you want to check: " domain
 
