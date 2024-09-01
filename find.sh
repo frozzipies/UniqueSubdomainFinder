@@ -27,7 +27,7 @@ echo "You entered the domain: $domain_to_check"
 subfinder -d "$domain_to_check" -o subdomains.txt
 
 # Run httpx with the subdomains.txt file and save the results to httpx.txt
-httpx -l subdomains.txt -sc -title -cl -wc -td | tee httpx.txt
+httpx-toolkit -l subdomains.txt -sc -title -cl -wc -td | tee httpx.txt
 
 # Add a separation line
 echo "---------------------------------------------------------------------------------"
